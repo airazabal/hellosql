@@ -1,0 +1,142 @@
+.css_cws_descripcion_tit{
+	font-weight: 700;
+    font-size: 13px;
+}
+.css_cws_descripcion_tip{
+	position: absolute;
+    right: 0px;
+    margin-right: 15px;
+    margin-top: -15px;
+    background-color: #090;
+    color: #FFF;
+    padding: 0px 4px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 10px;
+}
+.css_cws_descripcion_tipREST{
+	background-color: #a94d8c;
+}
+.css_cws_descripcion_tipSOAP{
+	background-color: #3c8dbc;
+}
+.css_cws_descripcion_num{
+	display: inline;
+    border: 0px solid #00c0ef;
+    background-color: #00c0ef;
+    border-radius: 100%;
+    padding: 0px 5px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #FFF;
+    position: absolute;
+    right: 50px;
+    margin-top: -16px;
+}
+.fa_buscar{
+	position: absolute;
+    right: 23px;
+    top: 18px;
+    color: #888;
+}
+.setion_buscar{
+	    background-color: #FFF;
+    padding: 10px;
+}
+.Cws_Grid_sin_titulo thead{
+	display:none;
+}
+.Cws_Grid_sin_titulo .form-control-static {
+    min-height: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+.Grid.Cws_Grid_sin_tituloOdd{
+	border-top: 1px solid #EEE;
+    padding-top: 3px;
+    display: block;
+    padding-bottom: 0px;
+	cursor: pointer;
+}
+.setion_buscar .form-control {
+    height: 28px;
+    font-size: 12px;
+}
+.css_Section_mant{
+	background-color: #FFF;
+    height: auto;
+    display: block;
+    min-height: 420px;
+}
+.Section_opciones_menu{
+	border-bottom: 1px solid #f1f1f1;
+    height: auto;
+    padding: 10px;
+    min-height: 40px;
+	display: flex;
+}
+.css_opcion_btn{
+	padding-right: 15px;
+    font-size: 13px;
+}
+.css_grid_list .dataTableTitle{
+	padding: 10px;
+	font-size: 12px !important;
+}
+.css_grid_list .form-control-static{
+	padding: 3px 0px;
+}
+.css_grid_list .ReadonlyAttribute{
+	font-size:12px;
+}
+.css_estado_servicio{
+	display: inline-block;
+    border: 1px solid #337ab7;
+    border-radius: 5px;
+    background-color: #3c8dbc;
+    padding: 0px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #FFF;
+    width: auto;
+    text-align: center;
+    padding: 0px 2px;
+}
+.css_estado_servicio.css_estado_servicio_red{
+	background-color: #dd4b39 !important;
+	border: 1px solid #dd4b39!important;
+}
+.css_estado_servicio.css_estado_servicio_green{
+	background-color: #00a65a !important;
+	border: 1px solid #00a65a !important;
+}
+.Css_cws_box{
+	
+}
+.Css_cws_box_cab{
+	display: flex;
+	padding: 10px 5px;
+}
+.Css_cws_box_cuerpo{
+	padding: 0px 5px;
+}
+.Css_cws_box_pie{
+	
+}
+.Css_cws_box_cab_btn{
+	width: 20%;
+}
+.Css_cws_box_cab_bus{
+	width: 100%;
+}
+.Css_cws_box_cab_bus .form-control{
+	height: 28px;
+}
+.Css_cws_box_cab_btn .Btn_Mnt{
+	height: 28px;
+    font-size: 12px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+

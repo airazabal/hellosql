@@ -1,0 +1,215 @@
+.Form-fondo{
+	width: 99%;
+	height:100%;
+	background-color: #fbfbfb !important;
+	font-size:12px;
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-size: cover;
+}
+.TableLogin {
+    background-color: #FFF;
+    width: 340px;
+    min-height: 340px;
+    border-radius: 2px;
+    height: auto;
+    padding: 25px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -170px;
+    margin-top: -170px;
+    border-color: #CCC;
+    border-width: 1px;
+    border-style: solid;
+    border-top-width: 6px;
+    border-top-color: #00a65a;
+    box-shadow: 0px 0px 10px #000;
+    -webkit-box-shadow: 0px 0px 0px #000;
+    -moz-box-shadow: 0px 0px 10px #000;
+}
+.ButtonIniciarSesion{
+	width: 100%;
+    margin-bottom: 10px;
+    background-color: #00a65a;
+    color: #FFF;
+    border-color: #00a65a;
+    min-height: 38px;
+	border-radius:2px;
+}
+
+.ButtonIniciarSesion:hover{
+    background-color: #008749;
+	color: #FFF;
+}
+
+.ButtonCancelar{
+	width: 100%;
+    margin-bottom: 10px;
+    background-color: #EEE;
+    color: #555;
+    border-color: #CCC;
+    min-height: 38px;
+    border-radius: 2px;
+}
+
+.ButtonCancelar:hover{
+    background-color: #DDD;
+	color: #333;
+}
+.TextoNegro{
+	color: #555;
+	margin-bottom: 10px;
+	display: block;
+	font-size: 11px;
+}
+.AttributeLogin{
+	margin-bottom:10px;
+	display: block;
+    width: 100%;
+    height: 38px;
+    padding: 6px 12px;
+	padding-left:50px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.icon_text_login{
+	position: absolute;
+    z-index: 8;
+    display: block;
+    height: 38px;
+    width: 38px;
+    padding: 11px;
+    padding-left: 13px;
+    background-color: #EEE;
+    border-color: #BBB;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 1px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+	color:#888;
+}
+
+.CheckLogin{
+	    color: #777;
+    font-size: 12px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+    margin-bottom: 10px !important;
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    text-align: -webkit-auto;
+}
+.Image_usu_Login{
+	    /* width: 60px; */
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 10px;
+    /* border-radius: 50%; */
+    /* background-color: #DDD; */
+    /* margin-top: 10px; */
+}
+.login.TextLink A{
+	font-size: 12px;
+    text-decoration: none;
+    display: block;
+    height: 34px;
+    padding-top: 20px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 2px 0 0;
+    margin-top: 1px \9;
+    line-height: normal;
+}
+.form-horizontal .form-group {
+    margin-right: 0px; 
+    margin-left: 0px; 
+}
+.icheckbox_square-blue {
+    background-position: 0 0;
+    margin-right: 5px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border-radius: 1px;
+}
+.login-logo, .register-logo {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.login-page, .register-page {
+    background: #d2d6de;
+    width: 100%;
+    height: 100%;
+}
+.gx-checkbox-wrapper {
+    min-height: 27px;
+    display: inline-block;
+    padding-top: 7px;
+    padding-left: 0px !important;
+}
+.ErrorViewerBullet .gx-warning-message {
+    background-image: none;
+    color: #dd4b39;
+	font-weight: 700;
+}
+.ErrorViewerBullet div {
+    background-position: left center;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-top: 1px;
+    display: block;
+    list-style-position: inside;
+}
+.form-horizontal .has-feedback .form-control-feedback {
+    right: 0px !important;
+}
+.has-feedback .form-control {
+    padding-right: 32.5px !important;
+}

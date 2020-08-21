@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.ws_seg_login_services,aws_seg_login" %>

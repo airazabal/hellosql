@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.tilesdata_services,tilesdata" %>

@@ -2,5 +2,9 @@
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 LABEL maintainer="Renzo <Renzo@example.com>"
 WORKDIR /app
-COPY ["ibm/20200730123835", "/app"]
+ENV APP_ROOT=/app
+COPY ibm/20200818125144 ${APP_ROOT}
+RUN chmod -R u+x ${APP_ROOT} && \
+    chgrp -R 0 ${APP_ROOT} && \
+    chmod -R g=u ${APP_ROOT} /etc/passwd
 ENTRYPOINT ["dotnet", "bin/GxNetCoreStartup.dll"]
